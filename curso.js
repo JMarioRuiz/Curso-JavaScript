@@ -44,3 +44,17 @@ parseString();
 /*todos los objetos de js incluyen el metodo toString() para convertirlo a 
 un string
 */
+
+//TYPE COERCION
+console.log(10 + "5");
+console.log("10" === 10);
+
+//BOOLEANOS
+let notificacionesActivas = false;
+let activo = false;
+
+let resultado = Boolean(1);
+console.log(resultado);
+/*
+se toma como falso el 0, "", false, undefined, NaN, null, -0
+*/
