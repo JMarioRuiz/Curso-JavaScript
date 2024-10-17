@@ -58,3 +58,33 @@ console.log(resultado);
 /*
 se toma como falso el 0, "", false, undefined, NaN, null, -0
 */
+
+//OPERADORES DE COMPARACION
+/*
+== igual
+=== estrictamente igual
+
+!= desigualdad
+!== desigualdad estricta
+
+> mayor que
+< menor que
+
+=> mayor o igual que
+<= menor o igual que
+*/
+
+//OPERADORES LOGICOS
+/*
+&& operador AND
+|| operador OR
+! operador de negacion o not
+?? operador nullish coalescing // fusion de nulos o union nulosa
+*/
+
+//let edad = 20;
+console.log(0 || "");
+console.log(edad > 10 || edad < 25);
+console.log(!(10 > 15));
+
+console.log(null ?? "hola");
