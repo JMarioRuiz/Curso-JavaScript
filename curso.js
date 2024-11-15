@@ -4,11 +4,11 @@ console.log("hola mundo");
 //alerta del navegador
 alert("ejemplo alerta");
 
-//para recibir datos desde el navegador
+//para recibir datos desde el navegador como modal
 prompt("Dame tu nombre: ");
 
 //como declarar variables
-let nombre = "Uriel";
+let nombre = "Mario";
 
 //como declarar constantes
 const PI = 3.1416;
