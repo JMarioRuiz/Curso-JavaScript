@@ -88,3 +88,71 @@ console.log(edad > 10 || edad < 25);
 console.log(!(10 > 15));
 
 console.log(null ?? "hola");
+
+//CICLOS
+/*
+for (var i = 0; i < 10; i++)
+while (i <  10)
+do while (i < 10)
+break; es par romper el ciclo
+continue; es para continuar el ciclo
+*/
+
+//FUNCIONES
+//Declaracion de funcion
+function saludar(){
+    console.log("hola mundo");
+}
+
+function cuadrado(numero){
+    return numero * numero;
+}
+
+//Expresion de funcion
+let func = function(){}
+
+/*
+tanto let como const solamente va a estar al alcance dentro de un bloque de la funcion
+va a estar disponible al bloque mas proximo
+const siempre sera para una constante que nunca va a cambiar de valor
+var se utiiliza si quieres utilizar una variable sin la limitiante de estar dentro de un
+bloque de funcion
+en los demas casos se va a emplear let para declarar una variable ya que es la manera 
+correcta y actualizaa de declarar variables en js
+*/
+
+//ARGUMENTO DE FUNCIONES
+
+//asingarle un valor a una variable, le estas declarando un valor por defecto
+function cuadrado(numero = 20){
+    console.log(numero);
+    return numero * numero;
+}
+
+function saludar(apellido, nombre = ""){
+    
+}
+
+//con el argumento arguments se puede recuperar un arreglo de todos
+//los argumentos de la función
+
+console.log(arguments);
+
+/*
+un argumento puede ser enviado como valor o como referencia
+decimos que un valor a sido enviado como referencia cuando el parametro apunto a la misma
+direccion que el argumento original
+decimos que pasamos un argumento como valor cuando se envia una copia del argumento orignal
+los arreglos y objetos siempre se envian como referencia, lo demas como una copia
+*/
+
+/* 
+Funcion pura: no produce efectos secundarios
+*/
+
+//HOISTING
+/* 
+en js, hoisting te permite usar funuciones y variables antes de que se
+hayan declarado
+se puede utilizar pero lo recomendable es no hacer eso
+*/
